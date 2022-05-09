@@ -11,7 +11,7 @@ class Router implements RouteInterface
     protected array $routes=[];
 
 
-    public function __construct($routes)
+    public function __construct($routes=[])
     {
 
         foreach ($routes as $k=>$v)
