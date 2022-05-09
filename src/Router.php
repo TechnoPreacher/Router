@@ -11,9 +11,11 @@ class Router implements RouteInterface
     protected array $routes=[];
 
 
-    public function __construct(string $path="", $action="")
+    public function __construct($routes)
     {
-        $this->addRoute($path,$action);
+
+        foreach ($routes as $k=>$v)
+        $this->addRoute($k,$v);
     }
 
     public function route(string $uri): callable
