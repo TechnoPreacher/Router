@@ -73,9 +73,9 @@ class Router implements RouteInterface
 
     /**
      * @param string $path путь роутинга
-     * @param $action действие по данному роутингу
+     * @param $action mixed действие по данному роутингу
      */
-    public function addRoute(string $path, $action): void
+    public function addRoute(string $path, mixed $action): void
     {
         $this->routes[$path] = $action;
     }
