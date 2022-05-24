@@ -8,7 +8,8 @@
 
 также добавлен класс SomeClass для демонстрации возможностей обработки калбэков
 
-есть два класса - HttpException,  расширяющий /Exception и HttpExceptionAction, расширяющий HttpExceptionAction, каждый со своими сообщениями об ошибках роутинга и кодами <500
+есть два класса - HttpException,  расширяющий /Exception и HttpExceptionAction, расширяющий HttpExceptionAction, каждый со своими сообщениями об ошибках роутинга 
+и кодами <500 (коды - вымышленны)
 
 
 
