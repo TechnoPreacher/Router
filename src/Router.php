@@ -68,7 +68,7 @@ class Router implements RouteInterface
                 return $v;//всегда даю возврат калбэка
             }
         }
-        return throw new \Exception("no action found for $uri ");
+        return throw new HttpExceptionAction();
     }
 
     /**
