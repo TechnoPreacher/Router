@@ -14,6 +14,7 @@
         }
     ],
     "require": {
-        "aigletter/contracts": "^1.0"
+        "aigletter/contracts": "^1.0",
+        "ext-xdebug": "*"
     }
 }
